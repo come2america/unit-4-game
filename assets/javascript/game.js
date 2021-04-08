@@ -1,5 +1,6 @@
 
 $(document).ready(function () {
+  
   alert("ready to start?")
   // Here we establish the "targetNumber" (set to 50 in this example).s
   var targetNumber = Math.floor((Math.random() * 120) + 19);

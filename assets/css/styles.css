@@ -1,0 +1,157 @@
+<style>
+
+    .crystal-image {
+     // width: 300px;
+    //  height: 300px;
+      background-color: white;
+    }
+    #reset:hover {
+      cursor: pointer;
+      border-style: double;
+      border-width: 4px;
+      border-color: #8040a6;
+  }
+    #reset {
+      border-radius: 100px;
+      color: white;
+      background-color: #d4c0ff;
+      /*! background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%); */
+      /*! font-family: ShopifySans, Helvetica, Arial, sans-serif; */
+      text-transform: uppercase;
+      fill: #fff;
+      color: #8040a6;
+      background-color: #fff;
+      border-style: solid;
+  //    border-width: 2px;
+      border-color: #eaeaea;
+      border-radius: 50px 50px 50px 50px;
+      padding: 14px 24px;
+      font-size: 12px;
+      /*! font-weight: 501; */
+      -webkit-filter: drop-shadow(5px 5px 5px #222);
+      filter: drop-shadow(5px 5px 5px #222);
+      font-weight: 900 !important;
+
+border-width: 4px;
+border-color: #8040a6;
+    }
+
+.dashBoard {
+//background-color: #E5E5F7;
+//opacity: 0.4;
+background-image: linear-gradient(30deg, #f745bd 12%, transparent 12.5%, transparent 87%, #f745bd 87.5%, #f745bd), linear-gradient(150deg, #f745bd 12%, transparent 12.5%, transparent 87%, #f745bd 87.5%, #f745bd), linear-gradient(30deg, #f745bd 12%, transparent 12.5%, transparent 87%, #f745bd 87.5%, #f745bd), linear-gradient(150deg, #f745bd 12%, transparent 12.5%, transparent 87%, #f745bd 87.5%, #f745bd), linear-gradient(60deg, #f745bd77 25%, transparent 25.5%, transparent 75%, #f745bd77 75%, #f745bd77), linear-gradient(60deg, #f745bd77 25%, transparent 25.5%, transparent 75%, #f745bd77 75%, #f745bd77);
+//background-size: 168px 140px;
+background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+// height: 385px;
+border: #2f1a3b;
+    border-top-style: none;
+    border-top-width: medium;
+    border-right-style: none;
+    border-right-width: medium;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-left-style: none;
+    border-left-width: medium;
+border-style: groove;
+border-width: 75px;
+padding: 24px;
+}
+.game {
+    display: flex;
+  //  justify-content: center;
+}
+
+.gameBoard {
+  border-color: #f172cd;
+ border-width: 11px;
+ border: antiquewhite;
+ border-style: solid;
+ background-image: url("https://i.pinimg.com/originals/53/39/30/53393042b7d6b478cb8f450127cded85.gif");
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ /*! height: 120%; */
+ background-size: 100% 100%;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#crystals {
+//    padding-top: 100px;
+-webkit-filter: drop-shadow(5px 5px 5px #222);
+filter: drop-shadow(5px 5px 5px #222);
+}
+.crystal-image:hover {
+    // padding-top: 100px;
+    -webkit-filter: drop-shadow(5px 15px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
+
+
+
+.crystal-image {
+display: inline-block;
+vertical-align: middle;
+-webkit-transform: perspective(1px) translateZ(0);
+transform: perspective(1px) translateZ(0);
+box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+-webkit-transition-duration: 0.3s;
+transition-duration: 0.3s;
+-webkit-transition-property: transform;
+transition-property: transform;
+}
+.crystal-image:hover, .crystal-image:focus, .crystal-image:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+  #reset {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+#reset:hover, #reset:focus,#reset:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.dashBoard h1 {
+    color: #8040a6;
+    background-color: white;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+    border-radius: 8px;
+    border-style: double;
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+body {
+    background-color: #1f1127;
+}
+.crystal-image {
+  width: 250px;
+  height: 250px;
+}
+@media only screen and (max-width: 768px) {
+  .game {
+    display:block;
+  }
+  .crystal-image {
+  width: 187px;
+  height: 187px;
+}
+
+}
+h1 span {
+    font-weight: bold;
+}
+</style>
